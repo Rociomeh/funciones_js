@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    <div style="display: flex;">
+        <div id="div_azul" style="width: 200px; height: 200px; background-color: blue;">
+        </div>
+        <div id="div_rojo" style="width: 200px; height: 200px; background-color: red;">
+        </div>
+        <div id="div_verde" style="width: 200px; height: 200px; background-color: green;">
+        </div>
+        <div id="div_amarillo" style="width: 200px; height: 200px; background-color: yellow;">
+        </div>
+    </div>
+    <script>
+        //Referencia de los divs con su ID
+        const div_azul = document.getElementById("div_azul")
+        const div_rojo = document.getElementById("div_rojo")
+        const div_verde = document.getElementById("div_verde")
+        const div_amarillo = document.getElementById("div_amarillo")
+
+        div_azul.addEventListener("click", function() {
+        div_azul.style.backgroundColor = "black";
+        });
+
+        div_rojo.addEventListener("click", function() {
+            div_rojo.style.backgroundColor = "black";
+        });
+
+        div_verde.addEventListener("click", function() {
+            div_verde.style.backgroundColor = "black";
+        });
+
+        div_amarillo.addEventListener("click", function() {
+            div_amarillo.style.backgroundColor = "black";
+        });
+    </script>
+</body>
+</html>
